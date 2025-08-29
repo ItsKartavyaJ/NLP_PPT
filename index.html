@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent Developments in Indian Language NLP - Presentation</title>
+    <meta name="description" content="A comprehensive case study on recent developments in Indian Language NLP, covering challenges and solutions in government and healthcare accessibility.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <!-- Slide Counter -->
+        <div class="slide-counter" id="slideCounter">
+            Slide 1 of 16
+        </div>
+
+        <!-- Navigation Menu Button -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle slide menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <!-- Slide Overview Menu -->
+        <div class="slide-menu hidden" id="slideMenu">
+            <div class="slide-menu-header">
+                <h3>Slide Overview</h3>
+                <button class="close-menu" id="closeMenu" aria-label="Close menu">&times;</button>
+            </div>
+            <div class="slide-menu-content">
+                <button class="slide-menu-item" data-slide="1">1. Title</button>
+                <button class="slide-menu-item" data-slide="2">2. Agenda</button>
+                <button class="slide-menu-item" data-slide="3">3. India's Linguistic Landscape</button>
+                <button class="slide-menu-item" data-slide="4">4. IndicNLP Library</button>
+                <button class="slide-menu-item" data-slide="5">5. Bhashini Initiative</button>
+                <button class="slide-menu-item" data-slide="6">6. IndicBERT</button>
+                <button class="slide-menu-item" data-slide="7">7. Regional Language Chatbots</button>
+                <button class="slide-menu-item" data-slide="8">8. Government Website Challenges</button>
+                <button class="slide-menu-item" data-slide="9">9. Healthcare Portal Challenges</button>
+                <button class="slide-menu-item" data-slide="10">10. Solution Approach</button>
+                <button class="slide-menu-item" data-slide="11">11. Organizations Involved</button>
+                <button class="slide-menu-item" data-slide="12">12. Solution Method</button>
+                <button class="slide-menu-item" data-slide="13">13. Solution Outcome</button>
+                <button class="slide-menu-item" data-slide="14">14. Key Achievements</button>
+                <button class="slide-menu-item" data-slide="15">15. Future Directions</button>
+                <button class="slide-menu-item" data-slide="16">16. Thank You</button>
+            </div>
+        </div>
+
+        <!-- Main Presentation Area -->
+        <main class="presentation-main">
+            <!-- Slide 1: Title -->
+            <section class="slide active" id="slide1">
+                <div class="slide-content title-slide">
+                    <div class="title-content">
+                        <h1 class="main-title">Recent Developments in Indian Language NLP</h1>
+                        <h2 class="subtitle">A Comprehensive Case Study</h2>
+                        <div class="title-visual">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1754759522/pplx_project_search_images/ccb08dac9f400b95c9f3cd94fcdde53f3983d9f6.png" alt="Indian Languages Word Cloud" class="title-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 2: Agenda -->
+            <section class="slide" id="slide2">
+                <div class="slide-content">
+                    <h1>Agenda</h1>
+                    <ul class="agenda-list">
+                        <li>Case Study: Recent Developments in Indian Language NLP</li>
+                        <li>Problem Identification: Language Accessibility Challenges</li>
+                        <li>Solution Framework: Comprehensive Approach</li>
+                        <li>Organizations & Methods</li>
+                        <li>Outcomes & Future Directions</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Slide 3: India's Linguistic Landscape -->
+            <section class="slide" id="slide3">
+                <div class="slide-content">
+                    <h1>India's Linguistic Landscape</h1>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">22</div>
+                            <div class="stat-text">Official languages and 1,600+ dialects</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">11%</div>
+                            <div class="stat-text">Of population speaks English fluently</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">85%</div>
+                            <div class="stat-text">Prefer regional languages for digital services</div>
+                        </div>
+                        <div class="stat-card highlight">
+                            <div class="stat-text">Massive digital divide due to language barriers</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 4: IndicNLP Library -->
+            <section class="slide" id="slide4">
+                <div class="slide-content case-study-slide">
+                    <h1>Case Study 1: IndicNLP Library (AI4Bharat)</h1>
+                    <div class="case-study-grid">
+                        <div class="case-study-info">
+                            <div class="info-item">
+                                <strong>Organization:</strong> AI4Bharat (IIT Madras)
+                            </div>
+                            <div class="info-item">
+                                <strong>Launched:</strong> 2020
+                            </div>
+                        </div>
+                        <div class="features-section">
+                            <h3>Key Features:</h3>
+                            <ul>
+                                <li>Open-source Python library for Indian language NLP</li>
+                                <li>Supports 12 major Indian languages</li>
+                                <li>Text normalization, tokenization, script conversion</li>
+                                <li>Pre-trained embeddings and models</li>
+                                <li>Foundation for Indian language NLP research</li>
+                            </ul>
+                        </div>
+                        <div class="impact-section">
+                            <h3>Impact:</h3>
+                            <p>Largest publicly available corpus for Indian languages</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 5: Bhashini -->
+            <section class="slide" id="slide5">
+                <div class="slide-content case-study-slide">
+                    <h1>Case Study 2: Bhashini (Government Initiative)</h1>
+                    <div class="case-study-grid">
+                        <div class="case-study-info">
+                            <div class="info-item">
+                                <strong>Organization:</strong> Digital India Bhashini Division (MeitY)
+                            </div>
+                            <div class="info-item">
+                                <strong>Launched:</strong> 2022
+                            </div>
+                        </div>
+                        <div class="features-section">
+                            <h3>Key Features:</h3>
+                            <ul>
+                                <li>National Language Translation Mission</li>
+                                <li>1000+ pre-trained AI models</li>
+                                <li>Open Bhashini APIs for ecosystem partners</li>
+                                <li>Supports 22 scheduled Indian languages</li>
+                                <li>Real-time speech and voice-to-voice translation</li>
+                            </ul>
+                        </div>
+                        <div class="impact-section">
+                            <h3>Impact:</h3>
+                            <p>1B+ tasks processed, 50+ govt departments, 25 state governments</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 6: IndicBERT -->
+            <section class="slide" id="slide6">
+                <div class="slide-content case-study-slide">
+                    <h1>Case Study 3: IndicBERT</h1>
+                    <div class="case-study-grid">
+                        <div class="case-study-info">
+                            <div class="info-item">
+                                <strong>Organization:</strong> AI4Bharat
+                            </div>
+                            <div class="info-item">
+                                <strong>Launched:</strong> 2020
+                            </div>
+                        </div>
+                        <div class="features-section">
+                            <h3>Key Features:</h3>
+                            <ul>
+                                <li>Multilingual ALBERT model for Indian languages</li>
+                                <li>Pre-trained on 8.9B tokens across 12 languages</li>
+                                <li>10x fewer parameters than mBERT/XLM-R</li>
+                                <li>State-of-the-art performance on Indian language tasks</li>
+                                <li>Supports: Hindi, Bengali, Tamil, Telugu, Gujarati, etc.</li>
+                            </ul>
+                        </div>
+                        <div class="impact-section">
+                            <h3>Impact:</h3>
+                            <p>Enables high-performance NLU with computational efficiency</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 7: Regional Language Chatbots -->
+            <section class="slide" id="slide7">
+                <div class="slide-content case-study-slide">
+                    <h1>Case Study 4: Regional Language Chatbots</h1>
+                    <div class="case-study-grid">
+                        <div class="case-study-info">
+                            <div class="info-item">
+                                <strong>Organization:</strong> Multiple (Microsoft, AI4Bharat, BharatGen)
+                            </div>
+                            <div class="info-item">
+                                <strong>Launched:</strong> 2022-2025
+                            </div>
+                        </div>
+                        <div class="features-section">
+                            <h3>Key Features:</h3>
+                            <ul>
+                                <li>Jugalbandi - WhatsApp-based govt services bot</li>
+                                <li>Supports 10+ Indian languages</li>
+                                <li>Voice-enabled healthcare consultation bots</li>
+                                <li>Agriculture advisory chatbots (Krishi Saathi)</li>
+                                <li>Multilingual customer service applications</li>
+                            </ul>
+                        </div>
+                        <div class="impact-section">
+                            <h3>Impact:</h3>
+                            <p>Improved access to services for non-English speakers</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 8: Government Website Problems -->
+            <section class="slide" id="slide8">
+                <div class="slide-content problem-slide">
+                    <h1>Problem Identification: Government Websites</h1>
+                    <div class="problem-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">7,800</span>
+                            <span class="stat-desc">Government websites tested for accessibility</span>
+                        </div>
+                        <div class="stat-item highlight">
+                            <span class="stat-number">6%</span>
+                            <span class="stat-desc">Had acceptable accessibility scores</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">33%</span>
+                            <span class="stat-desc">Lack alternate text for non-text objects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">58%</span>
+                            <span class="stat-desc">Have no navigation markup</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">63</span>
+                            <span class="stat-desc">Average errors per homepage</span>
+                        </div>
+                    </div>
+                    <div class="main-issue">
+                        <h3>Main Issue:</h3>
+                        <p>Massive accessibility barriers prevent citizens from accessing government services</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 9: Healthcare Portal Problems -->
+            <section class="slide" id="slide9">
+                <div class="slide-content problem-slide">
+                    <h1>Problem Identification: Healthcare Portals</h1>
+                    <div class="healthcare-layout">
+                        <div class="healthcare-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">1:1,511</span>
+                                <span class="stat-desc">Doctor-patient ratio (below WHO recommendation)</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">70%</span>
+                                <span class="stat-desc">Healthcare infrastructure in urban areas serving 30% population</span>
+                            </div>
+                            <div class="challenge-list">
+                                <ul>
+                                    <li>Language barriers affect medical communication</li>
+                                    <li>Medical jargon difficult in regional languages</li>
+                                    <li>Limited multilingual telemedicine support</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="healthcare-visual">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1756441646/pplx_project_search_images/853f2cf72ac37f1bff93208f58be7d6b2019cbe9.png" alt="Telemedicine consultation" class="healthcare-image">
+                        </div>
+                    </div>
+                    <div class="main-issue">
+                        <h3>Main Issue:</h3>
+                        <p>Language barriers compromise healthcare quality and accessibility</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 10: Solution Approach -->
+            <section class="slide" id="slide10">
+                <div class="slide-content solution-slide">
+                    <h1>Solution Framework: Approach</h1>
+                    <div class="approach-grid">
+                        <div class="approach-item">
+                            <div class="approach-icon">🏗️</div>
+                            <h3>Infrastructure</h3>
+                            <p>Develop comprehensive multilingual AI infrastructure</p>
+                        </div>
+                        <div class="approach-item">
+                            <div class="approach-icon">📚</div>
+                            <h3>Open Source</h3>
+                            <p>Create open-source datasets and models for Indian languages</p>
+                        </div>
+                        <div class="approach-item">
+                            <div class="approach-icon">🎤</div>
+                            <h3>Voice Interfaces</h3>
+                            <p>Implement voice-based interfaces for low-literacy users</p>
+                        </div>
+                        <div class="approach-item">
+                            <div class="approach-icon">🔗</div>
+                            <h3>APIs</h3>
+                            <p>Establish standardized APIs for language technology integration</p>
+                        </div>
+                        <div class="approach-item">
+                            <div class="approach-icon">🎯</div>
+                            <h3>Cultural Context</h3>
+                            <p>Build culturally relevant and context-aware AI solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 11: Organizations -->
+            <section class="slide" id="slide11">
+                <div class="slide-content solution-slide">
+                    <h1>Solution Framework: Organizations Involved</h1>
+                    <div class="organizations-grid">
+                        <div class="org-card">
+                            <h3>AI4Bharat (IIT Madras)</h3>
+                            <p>Research & development of Indian language models</p>
+                        </div>
+                        <div class="org-card">
+                            <h3>Digital India Bhashini Division</h3>
+                            <p>Government implementation & policy framework</p>
+                        </div>
+                        <div class="org-card">
+                            <h3>Microsoft Research India</h3>
+                            <p>Technology partnership & cloud infrastructure</p>
+                        </div>
+                        <div class="org-card">
+                            <h3>Reverie Language Technologies</h3>
+                            <p>Commercial language solutions</p>
+                        </div>
+                        <div class="org-card">
+                            <h3>State Governments</h3>
+                            <p>Local implementation & data collection</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 12: Method -->
+            <section class="slide" id="slide12">
+                <div class="slide-content solution-slide">
+                    <h1>Solution Framework: Method</h1>
+                    <div class="method-list">
+                        <div class="method-item">
+                            <div class="method-number">1</div>
+                            <p>Large-scale web crawling for corpus creation (8.9B tokens)</p>
+                        </div>
+                        <div class="method-item">
+                            <div class="method-number">2</div>
+                            <p>Crowdsourced data collection from 400+ districts</p>
+                        </div>
+                        <div class="method-item">
+                            <div class="method-number">3</div>
+                            <p>Professional voice artist recording in studio environments</p>
+                        </div>
+                        <div class="method-item">
+                            <div class="method-number">4</div>
+                            <p>Transfer learning and multilingual model fine-tuning</p>
+                        </div>
+                        <div class="method-item">
+                            <div class="method-number">5</div>
+                            <p>API-first architecture for ecosystem integration</p>
+                        </div>
+                        <div class="method-item">
+                            <div class="method-number">6</div>
+                            <p>Continuous feedback loops and model improvement</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 13: Outcome -->
+            <section class="slide" id="slide13">
+                <div class="slide-content solution-slide">
+                    <h1>Solution Framework: Outcome</h1>
+                    <div class="outcomes-grid">
+                        <div class="outcome-item">
+                            <div class="outcome-icon">📊</div>
+                            <p>Created largest open-source Indian language corpus</p>
+                        </div>
+                        <div class="outcome-item">
+                            <div class="outcome-icon">🚀</div>
+                            <p>Deployed 1000+ AI models through Bhashini platform</p>
+                        </div>
+                        <div class="outcome-item">
+                            <div class="outcome-icon">⚡</div>
+                            <p>Processed 1B+ translation and transcription tasks</p>
+                        </div>
+                        <div class="outcome-item">
+                            <div class="outcome-icon">🏛️</div>
+                            <p>Enabled government services in 22 Indian languages</p>
+                        </div>
+                        <div class="outcome-item">
+                            <div class="outcome-icon">👥</div>
+                            <p>Improved accessibility for 1.3B+ Indian citizens</p>
+                        </div>
+                        <div class="outcome-item">
+                            <div class="outcome-icon">🌐</div>
+                            <p>Reduced language barriers in digital governance and healthcare</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 14: Key Achievements -->
+            <section class="slide" id="slide14">
+                <div class="slide-content achievements-slide">
+                    <h1>Key Achievements & Impact</h1>
+                    <div class="achievements-list">
+                        <div class="achievement-item">
+                            <h3>Bhashini Platform</h3>
+                            <p>1B+ tasks processed across government services</p>
+                        </div>
+                        <div class="achievement-item">
+                            <h3>IndicBERT Model</h3>
+                            <p>State-of-the-art performance with 10x efficiency</p>
+                        </div>
+                        <div class="achievement-item">
+                            <h3>Jugalbandi Bot</h3>
+                            <p>Voice-enabled government services via WhatsApp</p>
+                        </div>
+                        <div class="achievement-item">
+                            <h3>Language Coverage</h3>
+                            <p>22 official languages, 400+ districts</p>
+                        </div>
+                        <div class="achievement-item">
+                            <h3>Government Partnerships</h3>
+                            <p>50+ government departments, 25 state governments</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 15: Future Directions -->
+            <section class="slide" id="slide15">
+                <div class="slide-content recommendations-slide">
+                    <h1>Future Directions & Recommendations</h1>
+                    <div class="recommendations-grid">
+                        <div class="recommendation-item">
+                            <h3>🗣️ Language Expansion</h3>
+                            <p>Expand coverage to tribal languages and dialects</p>
+                        </div>
+                        <div class="recommendation-item">
+                            <h3>🎯 Domain Accuracy</h3>
+                            <p>Enhance AI model accuracy for domain-specific terminology</p>
+                        </div>
+                        <div class="recommendation-item">
+                            <h3>♿ Accessibility Standards</h3>
+                            <p>Implement comprehensive accessibility standards (WCAG 2.1)</p>
+                        </div>
+                        <div class="recommendation-item">
+                            <h3>🎤 Voice Interfaces</h3>
+                            <p>Develop voice-first interfaces for rural populations</p>
+                        </div>
+                        <div class="recommendation-item">
+                            <h3>🤝 Partnerships</h3>
+                            <p>Strengthen public-private partnerships for sustainable growth</p>
+                        </div>
+                        <div class="recommendation-item">
+                            <h3>📏 Evaluation Metrics</h3>
+                            <p>Create standardized evaluation metrics for Indian language AI</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 16: Thank You -->
+            <section class="slide" id="slide16">
+                <div class="slide-content closing-slide">
+                    <div class="closing-content">
+                        <h1 class="thank-you-title">Thank You</h1>
+                        <h2 class="closing-subtitle">Questions & Discussion</h2>
+                        <p class="closing-message">Building inclusive AI for India's linguistic diversity</p>
+                        <div class="closing-visual">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1754747272/pplx_project_search_images/e706c36a6a4f42e24d2fe88061f37f61650c6bf4.png" alt="NLP Applications" class="closing-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Navigation Controls -->
+        <div class="nav-controls">
+            <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous slide">
+                <span>← Previous</span>
+            </button>
+            <button class="nav-btn next-btn" id="nextBtn" aria-label="Next slide">
+                <span>Next →</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
